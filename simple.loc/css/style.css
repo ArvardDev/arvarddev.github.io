@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  transition: 0.5s;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 50px 50px 20px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0 0 45px 0;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  color: #445161;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.header {
+  background-color: #445162;
+  font-size: 20px;
+  line-height: 36px;
+  color: #fff;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__list {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.header__list li {
+  padding-left: 35px;
+  position: relative;
+}
+
+.header__list li::before {
+  font-family: 'icomoon';
+  content: "\f00c";
+  left: 0;
+  position: absolute;
+}
+
+.header__img {
+  height: 215px;
+  padding-left: 15px;
+}
+
+.adout__content {
+  min-height: 245px;
+  max-width: 660px;
+}
+
+.about__title {
+  text-align: left;
+}
+
+.about__text p {
+  margin-bottom: 15px;
+}
+
+.about__img {
+  height: 245px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  float: right;
+}
+
+.pluses {
+  background-color: #f5f5f5;
+}
+
+.pluses__inner {
+  margin-bottom: 30px;
+}
+
+.pluses__item-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pluses__item {
+  position: relative;
+  max-width: 590px;
+  padding: 0 10px 25px 40px;
+}
+
+.pluses__item::before {
+  content: url(../img/plus-icon.png);
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.scrinshots__item-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scrinshots__item {
+  max-width: 590px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.scrinshots__img {
+  max-width: 200px;
+  max-height: 150px;
+  margin-right: 15px;
+}
+
+.scrinshots__item-text {
+  max-width: 380px;
+  padding-right: 15px;
+}
+
+.reviews {
+  background-color: #f5f5f5;
+}
+
+.reviews__item {
+  display: flex;
+  justify-content: space-between;
+  max-width: 590px;
+  margin-bottom: 24px;
+}
+
+.reviews__items-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews__img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.reviews__text {
+  position: relative;
+  max-width: 470px;
+  border-radius: 7px;
+  margin: 0 16px 0 28px;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: italic;
+  padding: 16px 21px;
+  background-color: #ebebeb;
+}
+
+.reviews__author {
+  margin-top: 15px;
+  color: #989898;
+}
+
+.reviews__text::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 11px 12px 11px 0;
+  border-color: transparent #ebebeb transparent transparent;
+  position: absolute;
+  left: -12px;
+}
+
+.offers__items {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.offers__item {
+  max-width: 300px;
+  border: 2px solid #445162;
+  border-radius: 7px;
+  background-color: #445162;
+  padding: 15px 0 20px;
+  text-align: center;
+}
+
+.offers__item + .offers__item {
+  margin-left: 45px;
+}
+
+.offers__item-title {
+  color: #fff;
+  margin-bottom: 19px;
+}
+
+.offers__item-price {
+  font-size: 40px;
+  line-height: 67px;
+  color: #445162;
+  background-color: #fff;
+}
+
+.offers__item-list {
+  text-align: left;
+  padding: 22px 35px 17px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.offers__btn {
+  width: 260px;
+  height: 40px;
+  background-color: #fff;
+  color: #445162;
+  font-weight: 700;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.contacts {
+  background-color: #445162;
+  color: #fff;
+}
+
+.contacts__title {
+  color: #fff;
+}
+
+.contacts__inner {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts__form {
+  max-width: 500px;
+  margin-right: 45px;
+  text-align: center;
+}
+
+.contacts__form input {
+  background-color: #fff;
+  padding: 12px;
+  margin-bottom: 20px;
+  color: #445162;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+.contacts__form textarea {
+  resize: none;
+  min-height: 100px;
+  max-height: 170px;
+  background-color: #fff;
+  padding: 12px;
+  margin-bottom: 20px;
+  color: #445162;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+.contacts__btn {
+  max-width: 140px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.contacts__numbers {
+  list-style: none;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.skype a,
+.phone-number a {
+  color: #fff;
+}
+
+.skype,
+.icq,
+.my-email,
+.phone-number {
+  padding-left: 30px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.skype::before,
+.icq::before,
+.my-email::before,
+.phone-number::before {
+  font-family: 'icomoon';
+  color: #fff;
+  content: "\f17e";
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+}
+
+.skype::before {
+  content: "\f17e";
+}
+
+.icq::before {
+  content: "\e900";
+}
+
+.my-email::before {
+  content: "\f003";
+}
+
+.phone-number::before {
+  content: "\f095";
+}
+
+.contacts__social {
+  list-style: none;
+  min-width: 240px;
+}
+
+.contacts__social li {
+  display: inline-block;
+}
+
+footer {
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+}
