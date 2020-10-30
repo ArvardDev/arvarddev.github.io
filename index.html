@@ -286,19 +286,28 @@
 			<div class="works__header">
 				<div class="works__title"> LATEST WORKS </div>
 				<div class="works__line"></div>
-				<div class="works__header-text">
-					<ul class="works__types">
-						<li><a href="">All</a></li>
-						<li><a href="">Branding</a></li>
-						<li><a href="">Design</a></li>
-						<li><a href="">Development</a></li>
-						<li><a href="">Strategy</a></li>
-					</ul>
+				<div class="works__header-mix">
+					<div class="works__types">
+							<button type="button" data-filter="all">
+								All
+							</button>
+							<button type="button" data-filter=".category-branding">
+								Branding
+							</button>
+							<button type="button" data-filter=".category-design">
+								Design
+							</button>
+							<button type="button" data-filter=".category-development">
+								Development
+							</button>
+							<button type="button" data-filter=".category-strategy">
+								Strategy
+							</button>
+					</div>
 				</div>
 			</div>
 			<div class="works__items">
-				<!-- 9 ITEMS NEED -->
-				<div class="works__item">
+				<div class="works__item mix category-branding" data-order="1">
 					<div class="works__item-hover">
 						<div class="works__item-title">
 							Hair Dresser
@@ -312,7 +321,7 @@
 					</div>
 					<img src="img/work-1.jpg" alt="">
 				</div>
-				<div class="works__item">
+				<div class="works__item mix category-design" data-order="2">
 					<div class="works__item-hover">
 						<div class="works__item-title">
 							Hair Dresser
@@ -326,7 +335,7 @@
 					</div>
 					<img src="img/work-2.jpg" alt="">
 				</div>
-				<div class="works__item">
+				<div class="works__item mix category-development" data-order="3">
 					<div class="works__item-hover">
 						<div class="works__item-title">
 							Hair Dresser
@@ -340,7 +349,7 @@
 					</div>
 					<img src="img/test.jpg" alt="">
 				</div>
-				<div class="works__item">
+				<div class="works__item mix category-branding" data-order="4">
 					<div class="works__item-hover">
 						<div class="works__item-title">
 							Hair Dresser
@@ -354,7 +363,7 @@
 					</div>
 					<img src="img/work-4.jpg" alt="">
 				</div>
-				<div class="works__item">
+				<div class="works__item mix category-branding" data-order="5">
 					<div class="works__item-hover">
 						<div class="works__item-title">
 							Hair Dresser
@@ -368,7 +377,7 @@
 					</div>
 					<img src="img/work-5.jpg" alt="">
 				</div>
-				<div class="works__item">
+				<div class="works__item mix category-strategy" data-order="6">
 					<div class="works__item-hover">
 						<div class="works__item-title">
 							Hair Dresser
@@ -382,7 +391,7 @@
 					</div>
 					<img src="img/work-6.jpg" alt="">
 				</div>
-				<div class="works__item">
+				<div class="works__item mix category-strategy" data-order="7">
 					<div class="works__item-hover">
 						<div class="works__item-title">
 							Hair Dresser
@@ -396,7 +405,7 @@
 					</div>
 					<img src="img/work-7.jpg" alt="">
 				</div>
-				<div class="works__item">
+				<div class="works__item mix category-development" data-order="8">
 					<div class="works__item-hover">
 						<div class="works__item-title">
 							Hair Dresser
@@ -410,7 +419,7 @@
 					</div>
 					<img src="img/work-8.jpg" alt="">
 				</div>
-				<div class="works__item">
+				<div class="works__item mix category-strategy" data-order="9">
 					<div class="works__item-hover">
 						<div class="works__item-title">
 							Hair Dresser
@@ -669,6 +678,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="js/jquery.fancybox.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/mixitup.min.js"></script>
 	<script src="js/slick.min.js"></script>
 
 	<script src="js/main.js"></script>
