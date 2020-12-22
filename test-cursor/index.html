@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<title>Турбота 24/7</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="content">
+			<!-- HEADER START -->
+			<header class="header">
+				<div class="container">
+					<div class="header__inner">
+						<a class="header__logo logo-link" href="#">
+							<img class="logo" src="images/logo.png" alt="logotipe upsk" >
+						</a>
+						<nav class="header__menu">
+							<ul class="header__menu-list">
+								<li>
+									<a class="header__menu-link" href="#forwhom">для кого?</a>
+								</li>
+								<li>
+									<a class="header__menu-link" href="#advantages">переваги</a>
+								</li>
+								<li>
+									<a class="header__menu-link" href="#program">програма</a>
+								</li>
+								<li>
+									<a class="header__menu-link" href="#tariffs">тарифи</a>
+								</li>
+								<li>
+									<a class="header__menu-link" href="#reviews">відгуки</a>
+								</li>
+								<li>
+									<a class="header__menu-link" href="#contacts">контакти</a>
+								</li>
+							</ul>
+						</nav>
+						<a class="header__btn glob-btn" href="#">
+							купити online
+						</a>
+						<div class="header__phone">
+							<a class="header__phone-link" href="tel:0800507050" title="подзвонити">0 800 507-050</a>
+						</div>
+						<div class="header__menu-btn">
+							<svg class="ham ham-rotate ham1" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+								<path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+								<path class="line middle" d="m 30,50 h 40" />
+								<path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+							  </svg>
+						</div>
+					</div>
+				</div>
+
+			</header>
+			<!-- HEADER END -->
+
+			<!-- MODAL WINDOW -->
+			<div class="modal" id="hidden-content" style="display: none;">
+				<div class="modal__title">
+					Подати заявку
+				</div>
+				<form>
+					<label class="modal__label" for="modal-name">Ваше ім’я:</label>
+					<input class="modal__input" type="text" name="client-name" id="modal-name" required>
+					<label class="modal__label" for="modal-phone">Телефон:</label>
+					<input class="modal__input" type="tel" name="client-phone" id="modal-phone" required>
+					<button class="modal__btn glob-btn">
+						відправити
+					</button>
+				</form>
+			</div>
+			<!-- MODAL WINDOW END -->
+
+			<!-- BANNER START -->
+			<section class="banner" id="banner-top" style="background-image: url(images/main-banner.jpg);">
+				<div class="banner__title">
+					<!-- if text is needed (если нужен свой текст) -->
+					<!-- Потурбуйтеся про рідних  -->
+				</div>
+			</section>
+			<section class="banner-tablet" id="banner-tablet">
+				<div class="banner-tablet__title">
+					<!-- if text is needed (если нужен свой текст) -->
+					Потурбуйтеся про рідних
+				</div>
+			</section>
+			<!-- BANNER END -->
+
+			<!-- FORWHOM START -->
+			<section id="forwhom" class="forwhom">
+				<div class="forwhom__container">
+					<div class="forwhom__inner">
+						<div class="forwhom__bg-image">
+							<img src="images/ellipse-photo-1.png" alt="">
+						</div>
+						<div class="forwhom__title-box">
+							<div class="forwhom__title title">
+								Для кого?
+							</div>
+						</div>
+						<p class="forwhom__text">
+							Зібралися у відрядження, подорож, а батьки і діти залишаються вдома? Потурбуйтеся про рідних, застрахуйте близьких за програмою <span>«Турбота про ближнього»</span>.
+						</p>
+						<div class="forwhom__items">
+							<div class="forwhom__item">
+								<div class="forwhom__item-image" style="background-image: url(images/forwhom/baby-bg.svg);">
+									<img src="images/forwhom/baby.svg" alt="">
+								</div>
+								<div class="forwhom__item-text">
+									Для дітей віком до 3 років
+								</div>
+							</div>
+							<div class="forwhom__item">
+								<div class="forwhom__item-image" style="background-image: url(images/forwhom/teen-bg.svg);">
+									<img src="images/forwhom/teen.svg" alt="">
+								</div>
+								<div class="forwhom__item-text">
+									Для осіб віком<br> від 3-ох до 65-ти років
+								</div>
+							</div>
+							<div class="forwhom__item">
+								<div class="forwhom__item-image" style="background-image: url(images/forwhom/man-bg.svg);">
+									<img src="images/forwhom/man.svg" alt="">
+								</div>
+								<div class="forwhom__item-text">
+									Для осіб віком<br> від 65 до 75 років
+								</div>
+							</div>
+							<div class="forwhom__item">
+								<div class="forwhom__item-image" style="background-image: url(images/forwhom/old-bg.svg);">
+									<img src="images/forwhom/old.svg" alt="">
+								</div>
+								<div class="forwhom__item-text">
+									Для осіб віком<br> від 75 років
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="forwhom__btn-box">
+						<a class="forwhom__btn glob-btn" data-fancybox data-src="#hidden-content" href="javascript:;">
+							отримати пропозицію
+						</a>
+					</div>
+				</div>
+			</section>
+			<!-- FORWHOM END -->
+
+			<!-- ADVANTAGES START -->
+			<section id="advantages" class="advantages">
+				<div class="advantages__bg-image">
+					<img src="images/ellipse-photo-2.png" alt="">
+				</div>
+				<div class="advantages__container">
+					<div class="advantages__inner">
+						<div class="advantages__title-box">
+							<div class="advantages__title title">
+								Переваги програми
+							</div>
+						</div>
+						<div class="advantages__items">
+							<div class="advantages__item advantages__item1">
+								<div class="advantages__item-image advantages__item1-image" style="background-image: url(images/advantages/call-center-bg.svg);">
+									<img src="images/advantages/call-center.svg" alt="">
+								</div>
+								<div class="advantages__item-text">
+									Цілодобова підтримка лікарів у випадку необхідності.
+								</div>
+							</div>
+							<div class="advantages__item advantages__item2">
+								<div class="advantages__item-image advantages__item2-image" style="background-image: url(images/advantages/doctor-bg.svg);">
+									<img src="images/advantages/doctor.svg" alt="">
+								</div>
+								<div class="advantages__item-text">
+									Візит лікаря до застрахованої особи при гострому респіраторному захворюванні.
+								</div>
+							</div>
+							<div class="advantages__item advantages__item3">
+								<div class="advantages__item-image advantages__item3-image" style="background-image: url(images/advantages/stethoscope-bg.svg);">
+									<img src="images/advantages/car.svg" alt="">
+								</div>
+								<div class="advantages__item-text">
+									Гарантія надання невідкладної медичної допомоги при станах та захворюваннях, що загрожують життю.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ADVANTAGES END -->
+
+			<!-- program START -->
+			<section class="program" id="program">
+				<div class="program__container">
+					<div class="program__inner">
+						<div class="program__title-box">
+							<div class="program__title title">
+								Що містить в собі програма?
+							</div>
+						</div>
+						<div class="program__text">
+							За цією програмою страхова компанія гарантує застрахованим особам:
+						</div>
+						<ul class="program__list">
+ 							<li class="program__item">
+								 Надання лікарями медичного асистансу  консультацій з медичних питань;
+								</li>
+							<li class="program__item">
+								Надання лікарями медичного асистансу інформації про лікувальні установи, наявність ліків у фармацевтичних закладах;
+							</li>
+							<li class="program__item">
+								Запис на консультацію до лікаря в необхідному медичному закладі;
+							</li>
+							<li class="program__item">
+								Надання лікарями медичного асистансу  консультацій за результатами медичних аналізів;
+							</li>
+							<li class="program__item">
+								Пошук лікарями медичного асистансу  необхідного спеціаліста відповідно до профілю захворювання;
+							</li>
+							<li class="program__item">
+								Оплату надання невідкладної медичної допомоги при станах та захворюваннях, що загрожують життю;
+							</li>
+							<li class="program__item">
+								Оплату візиту лікаря при гострому респіраторному захворюванні.
+							</li>
+						</ul>
+						<a class="program__btn glob-btn" data-fancybox data-src="#hidden-content" href="javascript:;">
+							Отримати консультацію
+						</a>
+					</div>
+				</div>
+				<div class="program__bg-image">
+					<img src="images/ellipse-photo-3.png" alt="">
+				</div>
+			</section>
+			<!-- program END -->
+
+			<!-- HOW IT WORKS START -->
+			<section class="hiw" id="hiw">
+				<div class="container">
+					<div class="hiw__inner">
+						<div class="hiw__title title">
+							Як це працює?
+						</div>
+						<div class="hiw__top">
+							<div class="hiw__top-subtitle hiw__subtitle">
+								Страхувальник/застрахована особа повідомляє в медичний асистанс про проблему тел. 044-364-77-81
+							</div>
+							<div class="hiw__top-items">
+								<div class="hiw__top-item hiw__top-item1">
+									<img class="hiw__top-img" src="images/howitworks/top-img-1.png" alt="">
+								</div>
+								<div class="hiw__top-item hiw__top-item2">
+									<img class="hiw__top-img" src="images/howitworks/top-img-2.png" alt="">
+								</div>
+								<div class="hiw__top-item hiw__top-item3">
+									<img class="hiw__top-img" src="images/howitworks/top-img-3.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="hiw__process-subtitle hiw__subtitle">
+							Лікар-координатор організовує:
+						</div>
+						<div class="hiw__process">
+							<div class="process__item">
+								<div class="process__item-num">
+									<svg width="112" height="112" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30.375 24.816c18.137-10.055 38.19-7.87 53.716 7.656 15.526 15.526 13.31 40.54-2.26 56.11-15.57 15.569-49.67-4.803-65.197-20.329C1.108 52.727 9.94 36.145 30.374 24.816z" fill="#FFF3DB"/></svg>
+								</div>
+								<div class="process__item-text">
+									Выяснение проблемы (угрозы)							
+								</div>
+							</div>
+							<div class="process__item">
+								<div class="process__item-num">
+									<svg width="112" height="112" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30.375 24.816c18.137-10.055 38.19-7.87 53.716 7.656 15.526 15.526 13.31 40.54-2.26 56.11-15.57 15.569-49.67-4.803-65.197-20.329C1.108 52.727 9.94 36.145 30.374 24.816z" fill="#FFF3DB"/></svg>
+								</div>
+								<div class="process__item-text">
+									Анализ необходимости перевозки
+								</div>
+							</div>
+							<div class="process__item">
+								<div class="process__item-num">
+									<svg width="112" height="112" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30.375 24.816c18.137-10.055 38.19-7.87 53.716 7.656 15.526 15.526 13.31 40.54-2.26 56.11-15.57 15.569-49.67-4.803-65.197-20.329C1.108 52.727 9.94 36.145 30.374 24.816z" fill="#FFF3DB"/></svg>
+								</div>
+								<div class="process__item-text">
+									Организация вызова скорой помощи или транспортировка застрахованного, ее оплата
+								</div>
+							</div>
+							<div class="process__item">
+								<div class="process__item-num">
+									<svg width="112" height="112" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30.375 24.816c18.137-10.055 38.19-7.87 53.716 7.656 15.526 15.526 13.31 40.54-2.26 56.11-15.57 15.569-49.67-4.803-65.197-20.329C1.108 52.727 9.94 36.145 30.374 24.816z" fill="#FFF3DB"/></svg>
+								</div>
+								<div class="process__item-text">
+									Консультацию квалифицированного врача с 9-00 до 18-00, который определяет степень опасности заболевания
+								</div>
+							</div>
+							<div class="process__item">
+								<div class="process__item-num">
+									<svg width="112" height="112" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30.375 24.816c18.137-10.055 38.19-7.87 53.716 7.656 15.526 15.526 13.31 40.54-2.26 56.11-15.57 15.569-49.67-4.803-65.197-20.329C1.108 52.727 9.94 36.145 30.374 24.816z" fill="#FFF3DB"/></svg>
+								</div>
+								<div class="process__item-text">
+									Предоставление информации о наличии лекарств в аптечной сети, доступных аналогах
+								</div>
+							</div>
+							<div class="process__item">
+								<div class="process__item-num">
+									<svg width="112" height="112" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30.375 24.816c18.137-10.055 38.19-7.87 53.716 7.656 15.526 15.526 13.31 40.54-2.26 56.11-15.57 15.569-49.67-4.803-65.197-20.329C1.108 52.727 9.94 36.145 30.374 24.816z" fill="#FFF3DB"/></svg>
+								</div>
+								<div class="process__item-text">
+									Расшифровку анализов
+								</div>
+							</div>
+						</div>
+						<div class="hiw__images">
+							<div class="hiw__image">
+								<img src="images/howitworks/bottom-img-1.png" alt="">
+							</div>
+							<div class="hiw__image">
+								<img src="images/howitworks/bottom-img-2.png" alt="">
+							</div>
+							<div class="hiw__image">
+								<img src="images/howitworks/bottom-img-3.png" alt="">
+							</div>
+							<div class="hiw__image">
+								<img src="images/howitworks/bottom-img-4.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- HOW IT WORKS END -->
+
+			<!-- TARIFFS START -->
+			<section class="tariffs" id="tariffs">
+				<div class="tariffs__container">
+					<div class="tariffs__title-box">
+						<div class="tariffs__title title">
+							Тарифи
+						</div>
+						<div class="tariffs__subtitle">
+							Страхова сума: <span>50 000 грн</span>
+						</div>
+					</div>
+					<div class="tariffs__inner">
+						<div class="tariffs__items">
+							<div class="tariffs__item">
+								<div class="tariffs__item-title">
+									Для застрахованих осіб віком<br>
+									 від 0 до 3-ох повних років
+								</div>
+								<table>
+									<thead>
+										<tr>
+											<td>Строк дії Договору</td>
+											<td>Страховий платіж, грн</td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1 місяць</td>
+											<td>130,00</td>
+										</tr>
+										<tr>
+											<td>3 місяця</td>
+											<td>325,00</td>
+										</tr>
+										<tr>
+											<td>6 місяців</td>
+											<td>455,00</td>
+										</tr>
+										<tr>
+											<td>9 місяців</td>
+											<td>585,00</td>
+										</tr>
+										<tr>
+											<td>12 місяців</td>
+											<td>715,00</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="tariffs__item">
+								<div class="tariffs__item-title">
+									Для застрахованих осіб віком<br>
+									 від 0 до 3-ох повних років
+								</div>
+								<table>
+									<thead>
+										<tr>
+											<td>Строк дії Договору</td>
+											<td>Страховий платіж, грн</td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1 місяць</td>
+											<td>130,00</td>
+										</tr>
+										<tr>
+											<td>3 місяця</td>
+											<td>325,00</td>
+										</tr>
+										<tr>
+											<td>6 місяців</td>
+											<td>455,00</td>
+										</tr>
+										<tr>
+											<td>9 місяців</td>
+											<td>585,00</td>
+										</tr>
+										<tr>
+											<td>12 місяців</td>
+											<td>715,00</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="tariffs__item">
+								<div class="tariffs__item-title">
+									Для застрахованих осіб віком<br>
+									 від 0 до 3-ох повних років
+								</div>
+								<table>
+									<thead>
+										<tr>
+											<td>Строк дії Договору</td>
+											<td>Страховий платіж, грн</td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1 місяць</td>
+											<td>130,00</td>
+										</tr>
+										<tr>
+											<td>3 місяця</td>
+											<td>325,00</td>
+										</tr>
+										<tr>
+											<td>6 місяців</td>
+											<td>455,00</td>
+										</tr>
+										<tr>
+											<td>9 місяців</td>
+											<td>585,00</td>
+										</tr>
+										<tr>
+											<td>12 місяців</td>
+											<td>715,00</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="tariffs__item">
+								<div class="tariffs__item-title">
+									Для застрахованих осіб віком<br>
+									 від 0 до 3-ох повних років
+								</div>
+								<table>
+									<thead>
+										<tr>
+											<td>Строк дії Договору</td>
+											<td>Страховий платіж, грн</td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1 місяць</td>
+											<td>130,00</td>
+										</tr>
+										<tr>
+											<td>3 місяця</td>
+											<td>325,00</td>
+										</tr>
+										<tr>
+											<td>6 місяців</td>
+											<td>455,00</td>
+										</tr>
+										<tr>
+											<td>9 місяців</td>
+											<td>585,00</td>
+										</tr>
+										<tr>
+											<td>12 місяців</td>
+											<td>715,00</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="tariffs__btn-box">
+							<a class="tariffs__btn glob-btn" href="#">
+								купити online
+							</a>
+						</div>						
+					</div>
+				</div>
+			</section>
+			<!-- TARIFFS END -->
+
+			<!-- REVIEWS START -->
+			<section class="reviews" id="reviews">
+				<div class="reviews__bg">
+					<img src="images/hand-ok.png" alt="">
+				</div>
+				<div class="reviews__inner">
+					<div class="reviews__title-box">
+						<div class="reviews__title title">
+							Відгуки клієнтів
+						</div>
+					</div>
+					<div class="reviews__slider">
+						<div class="reviews__slider-inner">
+							<div class="reviews__item">
+								<div class="reviews__item-inner">
+									<div class="reviews__user-box">
+										<div class="reviews__user-image">
+											<img src="images/reviews/user-1.png" alt="user photo">
+										</div>
+										<div class="reviews__user-name">
+											Катерина Філатова
+										</div>
+										<div class="reviews__user-job">
+											фрилансерка
+										</div>
+									</div>
+									<div class="reviews__item-text">
+										<p>Дякую UPSK, як справді надійному страховому партнеру! В минулому році я за грантовою програмою виїхав на навчання до Німеччини, в Україні залишилися мама з татом. Звісно ж, я їхав з неспокійним серцем, єдине, що міг зробити, оформити батькам поліс по програмі «Турбота про ближнього». Друзі порадили UPSK, і я не пожалкував: при найменшій проблемі страхова готова прийти на допомогу, викличуть швидку, підтримають морально, проконсультують з будь-якого медичного питання, завжди ввічливі та ставляться з розумінням.</p>
+									</div>
+								</div>
+							</div>
+							<div class="reviews__item">
+								<div class="reviews__item-inner">
+									<div class="reviews__user-box">
+										<div class="reviews__user-image">
+											<img src="images/reviews/user-2.png" alt="user photo">
+										</div>
+										<div class="reviews__user-name">
+											Васелина Петровська
+										</div>
+										<div class="reviews__user-job">
+											мати-героїня
+										</div>
+									</div>
+									<div class="reviews__item-text">
+										<p>В прошлом году мои чудесные детки улетели из гнезда, и уехали в Киев. Я всю жизнь прожила в Днепре, потому осталась. И, хотя я «еще ого-го!», дочь с сыном очень переживали, потому оформили мне страховку “ Забота о ближнем” в UPSK. Я, конечно отнекивалась, но в прошлом году, когда у меня случился гипертонический криз (давление 200 на 98!!!!), была рада, что меня застраховали и именно здесь. Позвонила сыну, сын позвонил им, мне вызвали скорую, отвезли в больницу, вызов скорой оплатили, при то что карета была современная и удобная. Поддержали и объяснили, что делать и как быть, посоветовали хорошего врача и даже рассказали, где есть недорогие аптеки совсем рядом с моим домом! А там как раз подоспели дети. Благодарна своим детками, и вам, дорогие UPSK, действительно небезразличные ребята, спасибо!</p>
+									</div>
+								</div>
+							</div>
+							<div class="reviews__item">
+								<div class="reviews__item-inner">
+									<div class="reviews__user-box">
+										<div class="reviews__user-image">
+											<img src="images/reviews/user-3.png" alt="user photo">
+										</div>
+										<div class="reviews__user-name">
+											Сергій Рєзник
+										</div>
+										<div class="reviews__user-job">
+											ще той тип
+										</div>
+									</div>
+									<div class="reviews__item-text">
+										<p>2 роки назад чоловікові запропонували роботу розробника ПО для банку на Кіпрі, потрібно було переїжджати. Не знали ще куди їдемо, тож батьків наших взяти з собою не могли. Колега, який теж з України, і який, власне, там працює і допоміг одержати чоловікові цю роботу, порадив нам UPSK, мовляв, його батьки також там застраховані. За 2 роки жодних нарікань, ставляться ну просто як до рідних, якщо мама чи тато хворіють, точно знаємо, що UPSK поруч, медична допомога буде якісною, якщо батькам буде зле - ассистанс викличе швидку, чітко розкажуть, що далі робити. Зверталися вже 5 разів і щоразу повна консультаційна підтримка, складання плану лікування, розшифровка аналізів з лабораторії та віддача зі сторони компанії. Дякую вам, дорогі, дійсно на совість працюють!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- REVIEWS END -->
+
+			<!-- CONTACTS START -->
+			<section class="contacts" id="contacts">
+				<div class="container">
+					<div class="contacts__title-box">
+						<div class="contacts__title title">
+							Контакти
+						</div>
+					</div>
+					<div class="contacts__inner">
+						<div class="contacts__adresses">
+							<div class="contacts__item contacts__adress">
+								<div class="contacts__item-title">
+									Адреса
+								</div>
+								<p class="contacts__item-text">
+									м. Київ, вул. Кирилівська, 40 
+								</p>
+							</div>
+							<div class="contacts__item contacts__email">
+								<div class="contacts__item-title">
+									Emails
+								</div>
+								<p class="contacts__item-text">
+									<a class="contacts__item-link" href="#">
+										info@upsk.com.ua
+									</a>
+								</p>
+								<p class="contacts__item-text">
+									<a class="contacts__item-link" href="#">
+										marketing@upsk.com.ua
+									</a>
+								</p>
+							</div>
+							<div class="contacts__item contacts__phone">
+								<div class="contacts__item-title">
+									Гаряча лінія
+								</div>
+								<p class="contacts__phone-text">0 800 507 050</p>
+							</div>
+							<ul class="contacts__social">
+								<li>
+									<a class="contacts__social-link" href="#">
+										<svg width="25" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.749.005L15.507 0c-3.642 0-5.996 2.318-5.996 5.906V8.63h-3.26a.5.5 0 00-.51.49v3.945a.5.5 0 00.51.49h3.26v9.956a.5.5 0 00.51.489h4.253a.5.5 0 00.51-.49v-9.956h3.81a.5.5 0 00.51-.489l.002-3.946a.48.48 0 00-.15-.346.521.521 0 00-.36-.143h-3.813V6.32c0-1.11.276-1.673 1.781-1.673h2.184a.5.5 0 00.51-.49V.494a.5.5 0 00-.51-.489z" fill="#333"/></svg>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="contacts__social-link">
+										<svg width="25" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.1 0H6.9C3.095 0 0 2.971 0 6.623v10.754C0 21.029 3.095 24 6.899 24H18.1C21.905 24 25 21.029 25 17.377V6.623C25 2.971 21.905 0 18.1 0zm4.682 17.377c0 2.478-2.1 4.494-4.681 4.494H6.899c-2.581 0-4.68-2.016-4.68-4.494V6.623c0-2.478 2.099-4.494 4.68-4.494H18.1c2.58 0 4.68 2.016 4.68 4.494v10.754z" fill="#333"/><path d="M12.5 5.816C8.948 5.816 6.058 8.59 6.058 12s2.89 6.184 6.442 6.184S18.942 15.41 18.942 12s-2.89-6.184-6.442-6.184zm0 10.238c-2.329 0-4.224-1.818-4.224-4.054s1.895-4.055 4.224-4.055 4.224 1.82 4.224 4.055c0 2.236-1.895 4.054-4.224 4.054zM19.212 4.01c-.427 0-.847.166-1.15.457-.303.29-.477.693-.477 1.105 0 .41.175.813.478 1.104a1.675 1.675 0 002.3 0c.302-.29.475-.694.475-1.104 0-.412-.173-.815-.476-1.105a1.669 1.669 0 00-1.15-.457z" fill="#333"/></svg>
+									</a>
+								</li>
+								<li>
+									<a href="" class="contacts__social-link">
+										<svg width="25" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.586 7.721H.768a.387.387 0 00-.387.387v15.479c0 .213.174.387.387.387h4.818a.387.387 0 00.388-.387V8.108a.387.387 0 00-.388-.387zM3.18.026A3.181 3.181 0 000 3.202 3.182 3.182 0 003.18 6.38a3.18 3.18 0 003.176-3.177A3.18 3.18 0 003.179.026zM17.841 7.336c-1.935 0-3.365.832-4.233 1.778V8.108a.387.387 0 00-.387-.387H8.607a.387.387 0 00-.387.387v15.479c0 .213.173.387.387.387h4.808a.387.387 0 00.387-.387v-7.659c0-2.58.7-3.586 2.5-3.586 1.959 0 2.114 1.612 2.114 3.72v7.525c0 .213.174.387.387.387h4.81a.387.387 0 00.387-.387v-8.49c0-3.838-.732-7.76-6.159-7.76z" fill="#333"/></svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<form class="contacts__form">
+							<div class="contacts__form-item">
+								<label class="contacts__form-label" for="name">
+									ФІО / Назва компанії:
+								</label>
+								<input class="contacts__form-input" type="text" name="name" id="name" required>
+	
+								<label class="contacts__form-label" for="email">
+									Email:
+								</label>
+								<input class="contacts__form-input" type="email" name="email" id="email" required>
+	
+								<label class="contacts__form-label" for="tel">
+									Телефон:
+								</label>
+								<input class="contacts__form-input" type="tel" name="tel" id="tel" required>
+							</div>
+
+							<div class="contacts__form-item">
+								<label class="contacts__form-label" for="message">
+									Ваше повідомлення:
+								</label>
+								<textarea class="contacts__form-textarea" name="message" id="message" required></textarea>
+							</div>
+
+							<div class="contacts__btn-box">
+								<button class=" contacts__btn glob-btn">
+									відправити
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+			<!-- CONTACTS END -->
+
+		</div>
+
+		<!-- FOOTER START -->
+		<footer class="footer" id="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer__item">
+						<a class="footer__logo logo-link" href="#">
+							<img class="logo" src="images/logo.png" alt="logotipe upsk" >
+						</a>
+					</div>
+					<div class="footer__item">
+						<div class="footer__copy">
+							2020 © Страхова компанія UPSK.
+						</div>
+					</div>
+					<div class="footer__item">
+						<div class="footer__dev">
+							<a href="#" class="footer__dev-link">
+								Розробка сайту
+							</a>
+							<span>Cursor <img src="images/icons/cursor-logo.svg" alt="" class="footer__dev-logo"></span>
+					</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- FOOTER END -->
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/libs.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
